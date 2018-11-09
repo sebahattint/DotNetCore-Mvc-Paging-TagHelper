@@ -28,7 +28,7 @@ namespace PagerTagHelper.TagHelpers
 
             output.Content.SetHtmlContent(builder.ToString());
 
-            base.Process(context, output);
+            base.Process(context, output); 
         }
     }
 }
