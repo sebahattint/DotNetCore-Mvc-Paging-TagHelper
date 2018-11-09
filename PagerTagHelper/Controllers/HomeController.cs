@@ -9,10 +9,11 @@ namespace PagerTagHelper.Controllers
 {
     public class HomeController : Controller
     {
+        private int pageSize = 3;
+
         public IActionResult Index(int page)
         {
-            int pageSize = 3;
-            List<City> cityList = GetCityList();
+            List<City> cityList = GetCityList(); // Get dummy data.
 
             CityListViewModel cityListmodel = new CityListViewModel()
             {
