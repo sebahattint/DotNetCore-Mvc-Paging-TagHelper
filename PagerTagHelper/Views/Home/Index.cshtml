@@ -1,0 +1,33 @@
+﻿@model PagerTagHelper.ViewModels.CityListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p><h2>Paging Tag Helper Example</h2></p>
+
+<table class="table striped">
+    <thead>
+        <tr>
+            <th>Order No</th>
+            <th>City Name</th>
+            <th>Country Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CityList)
+        {
+            <tr>
+                <td>@item.OrderNo</td>
+                <td>@item.CityName</td>
+                <td>@item.CountryName</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3"><mytags-pager-nav page-size="@Model.PageSize" page-count="@Model.PageCount" current-page="@Model.CurrentPageNo"></mytags-pager-nav></td>
+        </tr>
+    </tfoot>
+</table>
+
