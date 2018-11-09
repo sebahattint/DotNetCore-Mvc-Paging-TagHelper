@@ -1,4 +1,4 @@
-﻿# .Net Core 2.1 Mvc Paging Tag Helper Examples
+﻿# .Net Core 2.1 Mvc Paging Tag Helper Example
 
 <h2>Use in cshtml</h2>
 
