@@ -1,10 +1,10 @@
-﻿using PagerTagHelper.Models;
+﻿using PagingTagHelper.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PagerTagHelper.ViewModels
+namespace PagingTagHelper.ViewModels
 {
     public class CityListViewModel
     {

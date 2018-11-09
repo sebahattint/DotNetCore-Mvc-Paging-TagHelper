@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Razor.TagHelpers;
 using System.Text;
 
-namespace PagerTagHelper.TagHelpers
+namespace PagingTagHelper.TagHelpers
 {
     [HtmlTargetElement("mytags-pager-nav")]
-    public class PagingTagHelper : TagHelper
+    public class PagerTagHelper : TagHelper
     {
         [HtmlAttributeName("page-size")]
         public int PageSize { get; set; }

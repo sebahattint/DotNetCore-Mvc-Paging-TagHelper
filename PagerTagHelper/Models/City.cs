@@ -1,4 +1,4 @@
-﻿namespace PagerTagHelper.Models
+﻿namespace PagingTagHelper.Models
 {
     public class City
     {

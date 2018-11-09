@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PagerTagHelper.Models;
-using PagerTagHelper.ViewModels;
+using PagingTagHelper.Models;
+using PagingTagHelper.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PagerTagHelper.Controllers
+namespace PagingTagHelper.Controllers
 {
     public class HomeController : Controller
     {
